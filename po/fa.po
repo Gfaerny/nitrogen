@@ -1,0 +1,295 @@
+# Persian translations for nitrogen.
+# Copyright (C) 2026 l3ib.org
+# This file is distributed under the same license as the nitrogen package.
+# Ilia Abolghasemy <gfaerny@gmail.com>, 2026.
+
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: daf@minuslab.net\n"
+"POT-Creation-Date: 2018-03-22 23:01+0300\n"
+"PO-Revision-Date: 2026-05-14 12:04+0330\n"
+"Last-Translator: Ilia Abolghasemy <gfaerny@gmail.com>\n"
+"Language-Team: Persian\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: src/ArgParser.cc:75
+msgid "Unexpected argument "
+msgstr "آرگومان غیر منتظره"
+
+#: src/ArgParser.cc:84
+msgid " expects an argument."
+msgstr " نیاز به آرگومان."
+
+#: src/ArgParser.cc:87
+msgid " does not expect an argument."
+msgstr " بدون نیاز به آرگومان."
+
+#: src/ArgParser.cc:93
+msgid " conflicts with another argument."
+msgstr " با آرگومانی دیگر ناهمخوانی دارد."
+
+#: src/ArgParser.cc:105
+msgid "Usage:"
+msgstr "استفاده:"
+
+#: src/Config.cc:128 src/Config.cc:217
+msgid "ERROR: Unable to load config file"
+msgstr "خطا: بارگذاری فایل پیکربندی ممکن نیست"
+
+#: src/Config.cc:139
+msgid "Couldn't find group for"
+msgstr "گروه مربوطه پیدا نشد"
+
+#: src/Config.cc:151
+msgid "Could not get filename from config file."
+msgstr "نام فایل از فایل پیکربندی پیدا نشد."
+
+#: src/Config.cc:160
+msgid "Could not get mode from config file."
+msgstr "نام فایل از فایل پیکربندی دریافت نشد."
+
+#: src/Config.cc:219
+msgid "The error code returned was"
+msgstr "کد خطای بازگشتی"
+
+#: src/Config.cc:220
+msgid "We expected"
+msgstr "مقدار مورد انتظار"
+
+#: src/Config.cc:220
+msgid "or"
+msgstr "یا"
+
+#: src/NWindow.cc:253
+msgid "You previewed an image without applying it, apply?"
+msgstr "شما یک تصویر رو پیشنمایش کردید بدون تایید کردن, ایا تایید میکنید؟"
+
+#: src/NWindow.cc:329
+msgid "Automatic"
+msgstr "خودکار"
+
+#: src/NWindow.cc:336
+msgid "Scaled"
+msgstr "مقیاس دهی شده"
+
+#: src/NWindow.cc:344
+msgid "Centered"
+msgstr "وسط چین شده"
+
+#: src/NWindow.cc:352
+msgid "Tiled"
+msgstr "کاشی گونه شده"
+
+#: src/NWindow.cc:361
+msgid "Zoomed"
+msgstr "بزرگنمایی شده"
+
+#: src/NWindow.cc:362
+msgid "Zoomed Fill"
+msgstr "بزرگنمایی یا پرکردن شده"
+
+#: src/SetBG.cc:520 src/SetBG.cc:548
+msgid "Scale"
+msgstr "مقیاس"
+
+#: src/SetBG.cc:523 src/SetBG.cc:550
+msgid "Center"
+msgstr "وسط"
+
+#: src/SetBG.cc:526 src/SetBG.cc:552
+msgid "Tile"
+msgstr "کاشی کردن"
+
+#: src/SetBG.cc:529 src/SetBG.cc:554
+msgid "Zoom"
+msgstr "بزرگنمایی"
+
+#: src/SetBG.cc:532 src/SetBG.cc:556
+msgid "ZoomFill"
+msgstr "بزرگنمایی یا پرکردن"
+
+#: src/SetBG.cc:535 src/SetBG.cc:558
+msgid "Auto"
+msgstr "خودکار"
+
+#: src/SetBG.cc:626
+msgid "Could not get bg groups from config file."
+msgstr "گروه های پس زمینه از فایل پیکربندی دریافت نشد."
+
+#: src/SetBG.cc:650 src/SetBG.cc:657
+msgid "ERROR"
+msgstr "ارور"
+
+#: src/SetBG.cc:669 src/SetBG.cc:1044
+msgid "Could not open display"
+msgstr "نمایشگر باز نشد"
+
+#: src/SetBG.cc:730
+msgid "ERROR: Could not load file in bg set"
+msgstr "ارور: بارگذاری فایل در مجموعه پس زمینه ممکن نیست"
+
+#: src/SetBG.cc:808
+msgid "Unknown mode for saved bg"
+msgstr "حالت ناشناس برای پس زمینه"
+
+#: src/SetBG.cc:922
+msgid "ERROR: BG set could not make atoms."
+msgstr "ارور:‌ مجموعه پس زمنیه نتواسنت اتم ها را ایجاد کند."
+
+#: src/SetBG.cc:1023 src/SetBG.cc:1123 src/SetBG.cc:1533
+msgid "Screen"
+msgstr "صفحه"
+
+#: src/SetBG.cc:1118 src/SetBG.cc:1526
+msgid "Full Screen"
+msgstr "تمام صفحه"
+
+#: src/SetBG.cc:1183
+msgid "Could not find Xinerama screen number"
+msgstr "شماره صفحه Xinerama پیدا نشد"
+
+#: src/Util.cc:95
+msgid "Restore saved backgrounds"
+msgstr "بازیابی پس زمنیه های ذخیره شده"
+
+#: src/Util.cc:96
+msgid "Do not recurse into subdirectories"
+msgstr "وارد زیر شاخه ها نشوید"
+
+#: src/Util.cc:97
+msgid ""
+"How to sort the backgrounds. Valid options are:\n"
+"\t\t\t* alpha, for alphanumeric sort\n"
+"\t\t\t* ralpha, for reverse alphanumeric sort\n"
+"\t\t\t* time, for last modified time sort (oldest first)\n"
+"\t\t\t* rtime, for reverse last modified time sort (newest first)"
+msgstr ""
+"نحوهٔ مرتب‌سازی پس‌زمینه‌ها. گزینه‌های معتبر عبارت‌اند از:\n"
+"\t\t\t* alpha: مرتب‌سازی الفبایی\n"
+"\t\t\t* ralpha: مرتب‌سازی الفبایی معکوس\n"
+"\t\t\t* time: مرتب‌سازی بر اساس زمان آخرین تغییر (قدیمی‌ترین ابتدا)\n"
+"\t\t\t* rtime: مرتب‌سازی معکوس بر اساس زمان آخرین تغییر (جدیدترین ابتدا)"
+
+#: src/Util.cc:98
+msgid "background color in hex, #000000 by default"
+msgstr "رنگ پس زمینه به صورت هگز هست, #000000 به صورت پیشفزض"
+
+#: src/Util.cc:99
+msgid "Select xinerama/multihead display in GUI, 0..n, -1 for full"
+msgstr "انتخاب نمایشگر xinerama/multihead در رابط گرافیکی، از 0 تا n، مقدار ‎-1 برای کل صفحه"
+
+#: src/Util.cc:100
+msgid "Force setter engine: xwindows, xinerama, gnome, pcmanfm"
+msgstr "اجبار استفاده از موتور تنظیم: xwindows، xinerama، gnome، pcmanfm"
+
+#: src/Util.cc:101
+msgid "Choose random background from config or given directory"
+msgstr "انتخاب پس‌زمینه تصادفی از پیکربندی یا پوشه مشخص‌شده"
+
+#: src/Util.cc:106 src/Util.cc:107 src/Util.cc:108 src/Util.cc:109
+#: src/Util.cc:110 src/Util.cc:111
+msgid "Sets the background to the given file"
+msgstr "پس‌زمینه را روی فایل داده‌شده تنظیم می‌کند"
+
+#: src/Util.cc:106
+msgid "scaled"
+msgstr "مقیاس شده"
+
+#: src/Util.cc:107
+msgid "tiled"
+msgstr "کاشی گونه شده"
+
+#: src/Util.cc:108
+msgid "auto"
+msgstr "خودکار"
+
+#: src/Util.cc:109
+msgid "centered"
+msgstr "وسط چین شده"
+
+#: src/Util.cc:110
+msgid "zoom"
+msgstr "بزرگنمایی"
+
+#: src/Util.cc:111
+msgid "zoom-fill"
+msgstr "بزرگنمایی یا پر کردن"
+
+#: src/Util.cc:112
+msgid "Saves the background permanently"
+msgstr "پس زمینه رو به صورت دائمی ذخیره می کند"
+
+#: src/Util.cc:208
+msgid "Could not open dir"
+msgstr "پوشه باز نمی شود"
+
+#: src/Util.cc:293
+msgid "Currently set background"
+msgstr "درحال تنظیم پس زمنیه"
+
+#: src/Util.cc:296
+msgid "for"
+msgstr "برای"
+
+#: src/main.cc:133
+msgid "Error parsing command line"
+msgstr "ارور تجزیه خط فرمان"
+
+#: src/NPrefsWindow.cc:27
+msgid "Preferences"
+msgstr "تنظیمات"
+
+#: src/NPrefsWindow.cc:28
+msgid "View Options"
+msgstr "نشان دادن گزینه ها"
+
+#: src/NPrefsWindow.cc:29
+msgid "Directories"
+msgstr "پوشه ها"
+
+#: src/NPrefsWindow.cc:30
+msgid "Sort by"
+msgstr "مرتبط کردن بر اساس"
+
+#: src/NPrefsWindow.cc:31
+msgid "_Icon"
+msgstr "_آیکون"
+
+#: src/NPrefsWindow.cc:32
+msgid "_Icon with captions"
+msgstr "_آیکون با توضیح"
+
+#: src/NPrefsWindow.cc:33
+msgid "_List"
+msgstr "_فهرست"
+
+#: src/NPrefsWindow.cc:34
+msgid "_Time (descending)"
+msgstr "_زمان (نزولی)"
+
+#: src/NPrefsWindow.cc:35
+msgid "_Time (ascending)"
+msgstr "_زمان (صعودی)"
+
+#: src/NPrefsWindow.cc:36
+msgid "_Name (ascending)"
+msgstr "_نام (صعودی)"
+
+#: src/NPrefsWindow.cc:37
+msgid "_Name (descending)"
+msgstr "_نام (نزولی)"
+
+#: src/NPrefsWindow.cc:38
+msgid "Recurse"
+msgstr "بازگشتی"
+
+#: src/NPrefsWindow.cc:202
+msgid "Are you sure you want to delete <b>%1</b>?"
+msgstr "آیا مطمئن هستید می‌خواهید <b>%1</b> را حذف کنید؟"
+
+
